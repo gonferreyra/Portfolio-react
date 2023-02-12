@@ -1,0 +1,83 @@
+.education {
+  max-width: 1100px;
+  margin: auto;
+  padding: 1rem;
+
+  .education__container {
+    max-width: 315px;
+    margin: 2rem auto;
+    height: 380px;
+    background: linear-gradient(180deg, #171a1b 0%, rgba(23, 26, 27, 0) 100%);
+    opacity: 0.9; //0.8
+    border-radius: 15px;
+  }
+
+  .education__box {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .education__header__btn {
+    display: flex;
+    gap: 8px;
+
+    span {
+      height: 8px;
+      width: 8px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .dot1 {
+      background-color: #ff5f56;
+    }
+    .dot2 {
+      background-color: #ffbd2e;
+    }
+    .dot3 {
+      background-color: #27c93f;
+    }
+  }
+
+  .education__header__direction {
+    // background-color: #202226;
+    background: linear-gradient(180deg, #202226 0%, rgba(23, 26, 27, 0) 100%);
+    padding: 2px 50px;
+    border-radius: 5px;
+    border: 1px solid #202226;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      color: white;
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+
+  .education__content {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    .education__content__title {
+      h2 {
+        font-size: 1.3rem;
+        margin: 1rem auto 0;
+        color: #ebe8e8;
+      }
+    }
+    .education__content__img {
+      display: flex;
+      justify-content: center;
+      margin: 1rem auto;
+      img {
+        // max-width: 280px;
+        height: 80px;
+      }
+    }
+  }
+}
