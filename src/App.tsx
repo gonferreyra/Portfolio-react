@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
 import FrontCover from "./components/FrontCover/FrontCover";
 
@@ -12,6 +13,7 @@ function App() {
       <FrontCover />
       <Education />
       <Projects />
+      <Contact />
     </>
   );
 }

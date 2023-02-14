@@ -5,9 +5,9 @@ const FrontCover = () => {
     <>
       <div className="frontcover">
         <div className="frontcover__text">
-          <h2>AsdASd</h2>
-          <h2>Asdasdalsidyaoisd</h2>
-          <h2>asdasdasdaisjdlasjdklasd</h2>
+          <h2 className="frontcover__text--1">Hola!</h2>
+          <h2 className="frontcover__text--2">Soy Gonzalo,</h2>
+          <h2 className="frontcover__text--3">Fullstack developer</h2>
         </div>
         <div className="window__container">
           <div className="window__web__container">
@@ -22,28 +22,42 @@ const FrontCover = () => {
               </div>
             </div>
             <div className="window__web__content">
-              <p>. Content {"{"}</p>
+              <p>
+                .frontEnd <span>{"{"}</span>
+              </p>
               <div className="window__web__content__p">
                 <p>
-                  test123: <span>test123;</span>
+                  Lenguaje: <span>Javascript, Typescript;</span>
                 </p>
                 <p>
-                  test123: <span>test123;</span>
+                  styles: <span>CSS, Sass, StyledComponents;</span>
+                </p>
+                <p>
+                  libreria: <span>ReactJs, Redux;</span>
                 </p>
               </div>
-              <p>{"}"}</p>
+              <p>
+                <span>{"}"}</span>
+              </p>
             </div>
             <div className="window__web__content">
-              <p>. Content {"{"}</p>
+              <p>
+                .backEnd <span>{"{"}</span>
+              </p>
               <div className="window__web__content__p">
                 <p>
-                  test123: <span>test123;</span>
+                  Lenguaje: <span>NodeJS;</span>
                 </p>
                 <p>
-                  test123: <span>test123;</span>
+                  framework: <span>ExpressJS;</span>
+                </p>
+                <p>
+                  BaseDeDatos: <span>MongoDB;</span>
                 </p>
               </div>
-              <p>{"}"}</p>
+              <p>
+                <span>{"{"}</span>
+              </p>
             </div>
           </div>
         </div>
