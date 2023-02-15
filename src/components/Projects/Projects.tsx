@@ -92,7 +92,7 @@ const Projects = () => {
           </div>
           <div className="project__description">
             <p>
-              Proyecto realizado integramente con Javascrip Vainilla, teniendo
+              Proyecto realizado integramente con Javascript Vainilla, teniendo
               funcionalidad completa CRUD con JS.-
             </p>
           </div>
@@ -117,7 +117,7 @@ const Projects = () => {
           </div>
           <div className="project__description">
             <p>
-              Proyecto encriptador y desencriuptador de texto. Logica con JS.-
+              Proyecto encriptador y desencriptador de texto. Logica con JS.-
             </p>
           </div>
           <div className="project__links">
