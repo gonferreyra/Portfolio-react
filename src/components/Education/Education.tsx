@@ -1,5 +1,7 @@
 import React from "react";
 import logoNucba from "../../assets/nucba-logo.png";
+import LogoISPC from "../../assets/Isologotipo_ISPC_blanco-transparente-300x200.png";
+import AluraLogo from "../../assets/alura-logo.1647533644.svg";
 
 const Education = () => {
   return (
@@ -14,18 +16,18 @@ const Education = () => {
               <span className="dot3"></span>
             </div>
             <div className="education__header__direction">
-              <p>nucba.com</p>
+              <p>ispc.edu.ar</p>
             </div>
           </div>
           <div className="education__content">
             <div className="education__content__title">
-              <h2>Full Stack Bootcamp</h2>
+              <h2>Tecnicatura en Desarrollo Web</h2>
             </div>
             <div className="education__content__img">
-              <img src={logoNucba} alt="logo" />
+              <img src={LogoISPC} alt="logo" />
             </div>
             <div className="education__content__info">
-              {/* <p>hasjdhajdhsoahsd ashidajkhsdk akjhsd ajkd</p> */}
+              <p>En curso</p>
             </div>
           </div>
         </div>
@@ -41,14 +43,14 @@ const Education = () => {
             </div>
           </div>
           <div className="education__content">
-            <div className="education__content__title">
+            <div className="education__content__title short">
               <h2>Full Stack Bootcamp</h2>
             </div>
             <div className="education__content__img">
               <img src={logoNucba} alt="logo" />
             </div>
             <div className="education__content__info">
-              {/* <p>hasjdhajdhsoahsd ashidajkhsdk akjhsd ajkd</p> */}
+              <p>2021 - 2022</p>
             </div>
           </div>
         </div>
@@ -60,18 +62,18 @@ const Education = () => {
               <span className="dot3"></span>
             </div>
             <div className="education__header__direction">
-              <p>nucba.com</p>
+              <p>aluracursos.com</p>
             </div>
           </div>
           <div className="education__content">
-            <div className="education__content__title">
-              <h2>Full Stack Bootcamp</h2>
+            <div className="education__content__title short">
+              <h2>FrontEnd Bootcamp</h2>
             </div>
             <div className="education__content__img">
-              <img src={logoNucba} alt="logo" />
+              <img src={AluraLogo} alt="logo" />
             </div>
             <div className="education__content__info">
-              {/* <p>MERN Stack</p> */}
+              <p>2022 - 2022</p>
             </div>
           </div>
         </div>

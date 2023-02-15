@@ -90,6 +90,11 @@
           color: #ffffff;
         }
       }
+      .short {
+        h2 {
+          margin: 16px auto 30px;
+        }
+      }
       .education__content__img {
         display: flex;
         justify-content: center;
@@ -97,6 +102,11 @@
         img {
           // max-width: 280px;
           height: 80px;
+        }
+      }
+      .education__content__info {
+        p {
+          color: white;
         }
       }
     }

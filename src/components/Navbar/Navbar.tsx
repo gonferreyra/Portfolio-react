@@ -14,12 +14,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="projects" smooth={true} duration={800}>
+              <Link to="projects" smooth={true} duration={1000}>
                 Proyectos
               </Link>
             </li>
             <li>
-              <Link to="contact" smooth={true} duration={800}>
+              <Link to="contact" smooth={true} duration={2000}>
                 Contacto
               </Link>
             </li>
