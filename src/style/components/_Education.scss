@@ -16,14 +16,17 @@
   }
 
   .education__boxes {
+    display: flex;
+    flex-direction: column;
     @media screen and (min-width: 1000px) {
-      display: flex;
+      // display: flex;
       flex-direction: row;
       justify-content: space-between;
+      gap: 10px;
     }
     .education__container {
       max-width: 315px;
-      margin: 2rem auto;
+      margin: 2rem 0;
       height: 380px;
       background: linear-gradient(180deg, #171a1b 0%, rgba(23, 26, 27, 0) 100%);
       opacity: 0.9; //0.8

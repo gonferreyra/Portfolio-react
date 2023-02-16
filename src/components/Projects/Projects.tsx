@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "../../assets/image-search-1600-x-840-px-62c6dc4ff1eee-sej.png";
 import Project1 from "../../assets/react1.png";
 import Landing from "../../assets/landing1.png";
 import Hangman from "../../assets/ahorcado.png";
