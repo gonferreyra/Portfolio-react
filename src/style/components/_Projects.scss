@@ -7,12 +7,12 @@
   h2 {
     font-size: 20px;
     font-weight: 700;
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 1024px) {
       font-size: 30px;
     }
   }
 
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1024px) {
     padding: 60px;
   }
 
@@ -22,7 +22,7 @@
     flex-direction: column;
     gap: 25px;
 
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 1024px) {
       flex-direction: row;
       justify-content: center;
       align-items: center;
@@ -36,13 +36,13 @@
 
     .project__img {
       width: 100%;
-      @media screen and (min-width: 1000px) {
+      @media screen and (min-width: 1024px) {
         width: 50%;
       }
       img {
         width: 100%;
         border-radius: 5px;
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 1024px) {
           max-width: 400px;
         }
       }
@@ -53,14 +53,14 @@
       flex-direction: column;
       gap: 25px;
 
-      @media screen and (min-width: 1000px) {
+      @media screen and (min-width: 1024px) {
         width: 50%;
       }
       .project__name {
         p {
           font-weight: 700;
           font-size: 20px;
-          @media screen and (min-width: 1000px) {
+          @media screen and (min-width: 1024px) {
             font-size: 30px;
           }
         }
@@ -70,20 +70,34 @@
         max-width: 450px;
         p {
           font-size: 15px;
-          @media screen and (min-width: 1000px) {
+          @media screen and (min-width: 1024px) {
             font-size: 17px;
           }
         }
       }
 
       .project__links {
-        a {
-          text-decoration: none;
-          color: #0ee6b7;
-          p {
-            font-size: 18px;
-            @media screen and (min-width: 1000px) {
-              font-size: 20px;
+        button {
+          width: 120px;
+          height: 35px;
+          background: #a459d1;
+          border: none;
+          border-radius: 5px;
+          &:hover {
+            transition: all 0.3s ease-in-out;
+            // background: #a459d1;
+            background: #f96167;
+          }
+          @media screen and (min-width: 1024px) {
+            width: 160px;
+            height: 40px;
+          }
+          a {
+            text-decoration: none;
+            padding: 9px 20px;
+            color: white;
+            @media screen and (min-width: 1024px) {
+              font-size: 19px;
             }
           }
         }
@@ -91,11 +105,11 @@
     }
   }
   .right {
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 1024px) {
       flex-direction: row-reverse;
     }
     .project__info__container {
-      @media screen and (min-width: 1000px) {
+      @media screen and (min-width: 1024px) {
         text-align: right;
       }
     }

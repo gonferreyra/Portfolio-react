@@ -2,7 +2,7 @@
   max-width: 1100px;
   margin: auto;
   padding: 30px;
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1024px) {
     padding: 60px;
   }
 
@@ -10,30 +10,22 @@
     color: #ffffff;
     font-weight: 700;
     font-size: 20px;
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 1024px) {
       font-size: 30px;
     }
   }
 
   .education__boxes {
-    display: flex;
-    flex-direction: column;
-    @media screen and (min-width: 1000px) {
-      // display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      gap: 10px;
-    }
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 10px;
+
     .education__container {
-      max-width: 315px;
       margin: 2rem 0;
       height: 380px;
       background: linear-gradient(180deg, #171a1b 0%, rgba(23, 26, 27, 0) 100%);
       opacity: 0.9; //0.8
       border-radius: 15px;
-      @media screen and (min-width: 1000px) {
-        margin: 2rem 0;
-      }
     }
 
     .education__box {
@@ -67,12 +59,13 @@
     .education__header__direction {
       // background-color: #202226;
       background: linear-gradient(180deg, #202226 0%, rgba(23, 26, 27, 0) 100%);
-      padding: 1px 60px;
+      padding: 1px 0;
       border-radius: 10px;
       border: 1px solid #202226;
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-grow: 1;
 
       p {
         color: white;
@@ -99,11 +92,7 @@
         }
       }
       .education__content__img {
-        display: flex;
-        justify-content: center;
-        margin: 1rem auto;
         img {
-          // max-width: 280px;
           height: 80px;
         }
       }

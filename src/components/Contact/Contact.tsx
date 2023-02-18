@@ -26,7 +26,7 @@ const Contact = () => {
         </a>
       </div>
       <div className="contact__mail">
-        <p>mail@email.com</p>
+        <p>gonferreyra@gmail.com</p>
       </div>
       <span> </span>
     </div>

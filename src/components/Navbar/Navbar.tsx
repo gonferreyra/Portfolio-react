@@ -9,19 +9,25 @@ const Navbar = () => {
         <div className="nav__desktop">
           <ul>
             <li>
-              <Link to="education" smooth={true} duration={800}>
-                Educacion
-              </Link>
+              <button>
+                <Link to="education" smooth={true} duration={800}>
+                  Educacion
+                </Link>
+              </button>
             </li>
             <li>
-              <Link to="projects" smooth={true} duration={1000}>
-                Proyectos
-              </Link>
+              <button>
+                <Link to="projects" smooth={true} duration={1000}>
+                  Proyectos
+                </Link>
+              </button>
             </li>
             <li>
-              <Link to="contact" smooth={true} duration={2000}>
-                Contacto
-              </Link>
+              <button>
+                <Link to="contact" smooth={true} duration={2000}>
+                  Contacto
+                </Link>
+              </button>
             </li>
           </ul>
         </div>
