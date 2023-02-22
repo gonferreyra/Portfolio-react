@@ -1,6 +1,3 @@
-// import logoNucba from "../../assets/nucba-logo.png";
-// import LogoISPC from "../../assets/Isologotipo_ISPC_blanco-transparente-300x200.png";
-// import AluraLogo from "../../assets/alura-logo.1647533644.svg";
 import { education } from "../../data/data";
 
 const Education = () => {
