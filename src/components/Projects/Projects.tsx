@@ -7,6 +7,7 @@ const Projects = () => {
       <h2>Proyectos</h2>
       {projects.map((project) => (
         <div
+          key={project.id}
           className={
             project.right ? "project__container right" : "project__container"
           }
