@@ -18,7 +18,7 @@ const Projects = () => {
             project.right ? 'project__container right' : 'project__container'
           }
           data-aos={project.right ? 'fade-left' : 'fade-right'}
-          data-aos-offset='390'
+          data-aos-offset='300'
           data-aos-duration='700'
         >
           <div className='project__img'>
